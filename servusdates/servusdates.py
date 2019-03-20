@@ -28,7 +28,7 @@ def is_complete_hour(text: str, tz: str = "local") -> Optional[bool]:
     return False
 
 
-def is_date(text: str, tz: str = "local") -> Optional[Tuple[bool, str]]:
+def is_date(text: str, tz: str = "local") -> Tuple[bool, str]:
     """
     Check if text is a valid date. Format:
         format: "DD-MM-YYYY HH-mm-ss",
@@ -50,5 +50,5 @@ def is_date(text: str, tz: str = "local") -> Optional[Tuple[bool, str]]:
             from_format(text, fmt, tz=tz)
             return True, fmt
         except Exception:
-            return None
+            ...
     return False, ""
