@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+Little Python3 module to simply check if text contains valid date or hour.
+"""
+
 from pendulum import from_format
 
 from normalisedates import normalise_date
