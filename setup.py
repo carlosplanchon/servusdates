@@ -19,7 +19,7 @@ setup(
     url="https://github.com/carlosplanchon/servusdates",
     download_url="https://github.com/carlosplanchon/"
         "servusdates/archive/v0.1.tar.gz",
-    keywords=["list", "compress"],
+    keywords=["servus", "dates", "hour", "check"],
     install_requires=[
         "normalisedates",
         "pendulum"
